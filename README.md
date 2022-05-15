@@ -16,7 +16,7 @@
 
 
 ## Запуск проекта
-* Установка всего необзодимого (nltk, bs4, keras, translate)
+* Установка всего необходимого (nltk, bs4, keras, translate)
 
 ```pip install -e .```
 
