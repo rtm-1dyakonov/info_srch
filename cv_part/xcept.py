@@ -5,7 +5,7 @@ from keras.preprocessing.image import load_img, img_to_array
 
 translator= Translator(to_lang="en")
 model = Xception()
-dir_path = "D:/Пользователь/Артём Р/Downloads/info_search/info_srch/cv_part/images_cache"
+dir_path = "D:/Пользователь/Артём Р/Downloads/info_search/info_srch/cv_part/images"
 
 def get_image_from_url(url):
     save_location = dir_path + '/{name}'.format(name=url.split('/')[-1])
